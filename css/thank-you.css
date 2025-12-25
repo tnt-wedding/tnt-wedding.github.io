@@ -1,0 +1,138 @@
+/* Thank You Section Styles */
+
+.thank-you-section {
+    background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.thank-you-container {
+    max-width: 800px;
+    margin: 0 auto;
+    background: white;
+    padding: 50px 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.thank-you-section h3 {
+    font-size: 2.5em;
+    color: #333;
+    margin-bottom: 20px;
+    font-weight: 300;
+    letter-spacing: 1px;
+}
+
+.thank-you-section p {
+    font-size: 1.1em;
+    color: #666;
+    line-height: 1.8;
+    margin-bottom: 15px;
+}
+
+.emoji {
+    font-size: 1.2em;
+    margin: 0 3px;
+}
+
+.album-section {
+    margin-top: 40px;
+    padding-top: 40px;
+    border-top: 2px solid #e0e0e0;
+}
+
+.album-section h4 {
+    font-size: 1.3em;
+    color: #333;
+    margin-bottom: 20px;
+    font-weight: 500;
+}
+
+.album-link-wrapper {
+    margin: 25px 0;
+}
+
+.album-link-wrapper a {
+    display: inline-block;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+    padding: 14px 35px;
+    border-radius: 50px;
+    text-decoration: none;
+    font-weight: 600;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0 4px 15px rgba(102, 126, 234, 0.4);
+}
+
+.album-link-wrapper a:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(102, 126, 234, 0.6);
+}
+
+.contact-info {
+    margin-top: 30px;
+    padding: 25px;
+    background-color: #f0f4ff;
+    border-radius: 8px;
+    border-left: 4px solid #667eea;
+}
+
+.contact-info p {
+    font-size: 0.95em;
+    margin-bottom: 15px;
+}
+
+.email-link {
+    display: inline-block;
+    background-color: #ffffff;
+    color: white;
+    padding: 12px 28px;
+    border-radius: 50px;
+    text-decoration: none;
+    font-weight: 600;
+    transition: background-color 0.3s ease;
+    margin: 8px;
+}
+
+.email-link:hover {
+    background-color: #764ba2;
+}
+
+.contact-info a {
+    color: #667eea;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.contact-info a:hover {
+    text-decoration: underline;
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+    .thank-you-section {
+        padding: 40px 15px;
+    }
+
+    .thank-you-container {
+        padding: 30px 20px;
+    }
+
+    .thank-you-section h3 {
+        font-size: 1.8em;
+    }
+
+    .thank-you-section p {
+        font-size: 1em;
+    }
+
+    .album-link-wrapper a {
+        display: block;
+        margin: 10px 0;
+    }
+
+    .email-link {
+        display: block;
+        margin: 8px 0;
+    }
+}
